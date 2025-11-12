@@ -4,7 +4,7 @@
 2. Then it will List the ACE from the ACL for Each Objects 
 	-> If there are 10 Computers, 7 Users, 2 Ou, 1 Domain, 3 Groups and 2 GPO then it will list all the ACL for each of them.
 3. Once all the ACL's are gathered then it will check for these permission (GenericAll, GenericWrite, WriteDACL, AllExtentedRights, WriteOwner) in the Active directory rights Attribute.
-4. Once Collected it will then get all the sid's and convert them into the display name and convert the onjectDN to it's displayname.
+4. Once Collected it will then get all the sid's who has that rights and convert them into the display name and convert the objectDN to it's displayname.
 5. then it will create (Security Identifer has an Active Directory rights on the ObjectDN) these type of output for all the overly permissive ACl.
 6. Which then be considered as Misconfigured/overly permissive ACl.
 
