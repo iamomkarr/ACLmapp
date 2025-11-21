@@ -5,5 +5,5 @@ present in the AD env, Which get difficult to understand and analysis the miscon
 
 Thus ACL Map will help you identify these misconfigured/ Over permissive ACL and give you an simple report where you can understand and Fix it before an attacker could exploit it.
 
-Note: i've used Ai Model to generate code and it's not completely written by me from scratch.
+Note: The Algo/working/idea is completely devloped by me however i've used Ai Model to generate code and it's not completely written by me from scratch.
 
